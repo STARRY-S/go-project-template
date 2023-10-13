@@ -6,13 +6,11 @@ cd $(dirname $0)/../
 WORKINGDIR=$(pwd)
 
 files=(
+    # TODO: edit here
     ".dapper*"
-    "hangar"
+    "go-project-template"
     "bin/"
-    "dists/"
-    "pkg/archive/part/test/test*"
-    "pkg/rancher/chartimages/test/*"
-    "pkg/rancher/kdmimages/test/*"
+    "dist/"
 )
 
 for f in ${files[@]}; do
